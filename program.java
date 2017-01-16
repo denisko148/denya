@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class program
 {
-	Scanner scanner = new Scanner (System.in);
+	Scanner sc = new Scanner (System.in);
 
 	public static void main (String[] args)
 	{
@@ -10,11 +10,11 @@ public class program
 		program program = new program();
 		program.start();
 	}
-	public start ()
+	public void start ()
 	{
 		int a = input("vasia, enter pls 1 number: ");
 		int b = input("vasia, pls, 2  chislo: ");
-		System.out.println("brat, vot tvoja summa: " + sum(a, b);
+		System.out.println("brat, vot tvoja summa: " + sum(a, b));
 	}
 	public int sum (int a, int b)
 	{
